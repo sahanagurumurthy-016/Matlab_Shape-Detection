@@ -1,0 +1,14 @@
+ Measuring objects within an image or frame can be an important capability for many applications where computer vision is required instead of making physical measurements.
+ This application note will cover a basic step-by-step algorithm for isolating a desired object and measuring size of that object.
+ Process:
+ Import Image
+ Segment Image
+	segmenting the image into a binary image to differentiate the background from the desired objects.
+ Segmentation
+	Removal of noice 
+ Measuring Image
+	includes Calculation of area , perimeter and diameter of object based on the shape of object.
+
+Through this application we will be able to write a MATLAB script file to import an image, 
+segment the image in order to isolate the desired object from its background and then use the 
+MATLAB functions that come with the Image Processing Toolbox to determine the objects size. I
